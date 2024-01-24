@@ -40,11 +40,11 @@ function checkLowerCase() {
 
 function encrypt(match) {
     const keysOfEncrypt = {
-        "a": "ai",
-        "e": "enter",
-        "i": "imes",
-        "o": "ober",
-        "u": "ufat",
+        "a": "miau",
+        "e": "miarr",
+        "i": "minhau",
+        "o": "pisp",
+        "u": "ronron",
     }
 
     return keysOfEncrypt[match];
