@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador</title>
+</head>
+
+<div class="header">
+    <header class="cabecalho">
+    <img class="logo" src="assets/pixil-frame-0-PhotoRoom.png-PhotoRoom.png" alt="">
+    <h1 class="titulo">Gatito Codifiqueitor</h1>
+</header>
+</div>
+
+<body>
+
+    <main class="main">
+        <div class="main__content">
+            <div class="main__warning">
+                <img class="is-icon-warning is-icon-white" src="./assets/alert-circle-icon-1024x1024-pvlndypm.png"
+                 width="15px" height="15px" alt="Imagem de um circulo com um ponto de exclamação">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="main__wrapper-textarea">
+                <textarea class="main__textarea js-textarea" placeholder="Digite o seu texto!"></textarea>
+            </div>
+            <div class="main__wrapper-button">
+                <button class="is-button-large is-encrypt js-encrypt" type="button">
+                    <img class="is-icon-black">
+                    Criptografar
+                </button>
+                <button class="is-button-large is-descrypt js-descrypt" type="button">
+                    <img class="is-icon-white">
+                    Descriptografar
+                </button>
+            </div>
+    </div> 
+
+        <section class="aside__display">
+            <div class="aside__display-text  js-display-text">
+                <div class="aside__image" >
+                    <img src="./assets/oIaH69DPyEEA0AgErBYfmDahIPzAWpBjdoN9T5_tplv-nhvfeczskr-1_250_0.png" alt="Imagem ilustrativa de uma militar de óculos">
+                </div>
+                <div class="aside__message">
+                    <h2 class="aside__title">Nenhuma mensagem encontrada</h2>
+                    <p class="aside__paragraph">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <button class="aside__copy is-button-large is-button-copy js-btn-copy" type="button">
+                Copiar
+            </button>
+        </section>
+    </main>
+       
+
+    <script src="./script.js"></script>
+</body>
+</html>
