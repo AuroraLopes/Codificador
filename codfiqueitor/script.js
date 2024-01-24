@@ -69,11 +69,11 @@ function encryptText() {
 
 function descrypt(match) {
     const keysOfDescrypt = {
-        "ai": "a",
-        "enter": "e",
-        "imes": "i",
-        "ober": "o",
-        "ufat": "u",
+       "miau": "a",
+        "miarr": "e",
+        "minhau": "i",
+        "pisp": "o",
+        "ronron": "u",
     }
     
     return keysOfDescrypt[match];
